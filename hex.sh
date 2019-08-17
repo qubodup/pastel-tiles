@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # crop to center
 magick gold.xcfbz2 -flatten -crop 90x90+2+1 +repage gold_1_crop.png
 # scale to size
