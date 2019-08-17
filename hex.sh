@@ -80,3 +80,11 @@ magick rock_1_crop.png -interpolate Nearest -filter point -resize 77x77  -gravit
 magick composite -compose CopyOpacity mask_v.png rock_2_resize.png rock_3_masked.png
 # gif
 magick -background none rock_3_masked.png oreHex.gif
+
+# Create rotated versions of *.gif, except r*.gif
+# (avoid double-rotation on re-runs) and g* (don't rotate gold)
+# TODO: Create using mask, not rotation, like goldHexH.gif example above
+
+for fname in [^rg]*Hex.gif; do
+  magick $fname -rotate 90 rotat_${fname}
+done

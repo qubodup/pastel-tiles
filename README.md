@@ -20,6 +20,9 @@ in a command line. On Windows, I use right-click "Git Bash Here". (Screenshot: h
 
 You might have to run chmod +x hex.sh first.
 
+The rendered tiles are output as \*.gif and rotat_\*.gif.  
+Temporary files are \*.png (except mask_\*.png) and can be deleted.
+
 ## Requirements
 
 Imagemagick 7 (on Windows, add it to PATH)
