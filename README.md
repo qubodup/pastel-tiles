@@ -1,5 +1,7 @@
 # Pastel Board Game Tiles
 
+![](preview.png)
+
 Painted in GIMP, exported using scripts, to make art changes quicker to test
 
 Initially this little art pack was started on OpenGameArt at https://opengameart.org/content/pastel-resources-tiles-96x96
